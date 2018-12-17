@@ -23,6 +23,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
+    <script type="text/javascript" src="lib/phaser.min.js"></script>
+    <script type="text/javascript" src="js/shoot.js"></script>
 
   </head>
 
@@ -30,7 +32,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Jenaro Calviño</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
@@ -57,6 +59,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#game">Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#art">Art</a>
           </li>
         </ul>
       </div>
@@ -237,6 +245,78 @@
           </ul>
         </div>
       </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="game">
+        <div class="my-auto">
+          <h2 class="mb-5">Attempt of JS Game</h2>
+          <p>This is an on-going, just for fun project called Invaders' Revenge</p>
+          <p>Use arrow/wasd keys to move, spacebar/click to shoot</p>
+          <div id="invadersRevenge"></div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+    <section class="content-section" id="art">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Art</h3>
+          <p>Recently got into art and I'm trying to learn how to draw</p>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-5">
+            <a class="portfolio-item" href="#art">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Demon head</h2>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/demonhead.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#art">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Sleeping</h2>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/sleeping.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#art">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Lake lady/zombie</h2>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/lakelady.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#art">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Family</h2>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/family.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" href="#art">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Robotita</h2>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/robotita.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     </div>
 
